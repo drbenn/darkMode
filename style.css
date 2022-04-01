@@ -1,0 +1,22 @@
+:root {
+  --primary: white;
+  --secondary: black;
+  --accent: red;
+}
+
+body {
+  color: var(--secondary);
+  background-color: var(--primary);
+  transition: background-color 2s ease, color 2s ease;
+}
+
+.dark {
+  --primary: black;
+  --secondary: white;
+  --accent: yellow;
+}
+
+.accent {
+  color: var(--accent);
+  transition: color 5s ease;
+}
